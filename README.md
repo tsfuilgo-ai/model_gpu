@@ -21,6 +21,12 @@ Then run:
 python3 infer_v2_representative_three.py
 ```
 
+## H1–H6 whole-line forward data
+
+The latest uncropped whole-line forward arrays and shot geometry are published
+under [`datasets/h1_h6_whole_line_forward_v2`](datasets/h1_h6_whole_line_forward_v2/README.md).
+The six `forward.npy` files use Git LFS and include a SHA-256 release manifest.
+
 The inference script expects the aligned-v2 dataset under
 `/data/1/lwt/archive/v10_samples_velocity_aligned_v2/samples` and writes its
 outputs to `/data/2/lost+found`.

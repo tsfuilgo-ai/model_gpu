@@ -1,0 +1,388 @@
+{
+  "schema": "h1_h6_uncropped_whole_line_forward_release_v2",
+  "source_commit": "a2cc3b2b1f869bed598120d924410c3565fc6f28",
+  "source_root": "measured_h1_h6_composite_v11_a2cc3b2/lines",
+  "spatial_windowing_applied": false,
+  "line_count": 6,
+  "total_forward_bytes": 3829249152,
+  "lines": [
+    {
+      "line": "H1",
+      "forward_path": "lines/H1/forward.npy",
+      "shape": [
+        1,
+        4128,
+        44689
+      ],
+      "dtype": "float32",
+      "shot_count": 44689,
+      "sampling_rate_hz": 96000.0,
+      "normalization": {
+        "normalization_mode": "line_level_robust_scale",
+        "scale_reference": "p99.5",
+        "line_level_scale_percentile": 99.5,
+        "clip_percentile": 99.9,
+        "scale": 1.1135230773006808e-08,
+        "clip_limit": 2.4397497355721498e-08,
+        "clip_limit_after_scale": 2.1910185655841175,
+        "preserve_polarity": true,
+        "line_level": true,
+        "per_trace_agc": false,
+        "agc_used_for_training": false,
+        "tvg_used_for_training": false,
+        "log_compression_used_for_training": false,
+        "display_normalization_used_for_training": false,
+        "zero_to_one_display_normalization": false
+      },
+      "files": {
+        "lines/H1/_FORWARD_SUCCESS": {
+          "bytes": 65,
+          "sha256": "ebf82fdd80a67e8566e97d7db432cc3d23b7fb86bf7dbbe3da20dbcd356fdb49"
+        },
+        "lines/H1/forward.npy": {
+          "bytes": 737904896,
+          "sha256": "159d7f8a99f3969dba27e6e3562a14a107d7a1a450a29f831ac9ad74b5b02971"
+        },
+        "lines/H1/meta.json": {
+          "bytes": 4986987,
+          "sha256": "39549961c58a214f761e0f6260db6a8ec839500041abd851db483914190d4048"
+        },
+        "lines/H1/plan.json": {
+          "bytes": 2424180,
+          "sha256": "d70d3207df40d73fdb59877c93f98dd5a119957022aac3ce6c79251ca7ba68f3"
+        },
+        "lines/H1/shot_chainage_m.npy": {
+          "bytes": 357640,
+          "sha256": "94ca2c8edfa0590bbf834fce9bd790e5ff2804f7bf85617c542669a95547556c"
+        },
+        "lines/H1/shot_model_columns.npy": {
+          "bytes": 357640,
+          "sha256": "42de4898f4c413ea69903a56d6b242f758c22a546e83bb813550f192c954cfe8"
+        },
+        "lines/H1/shot_seafloor_depth_m.npy": {
+          "bytes": 178884,
+          "sha256": "1ae49170b3bbcdd9794dae2e46cf4ae65dc17eaabc675d44321135705a768230"
+        },
+        "lines/H1/shot_xy_m.npy": {
+          "bytes": 715152,
+          "sha256": "833e70402e8ffecbafffa2e6f32f5871539e491dcfc589972825e929b8013a04"
+        }
+      }
+    },
+    {
+      "line": "H2",
+      "forward_path": "lines/H2/forward.npy",
+      "shape": [
+        1,
+        4128,
+        44724
+      ],
+      "dtype": "float32",
+      "shot_count": 44724,
+      "sampling_rate_hz": 96000.0,
+      "normalization": {
+        "normalization_mode": "line_level_robust_scale",
+        "scale_reference": "p99.5",
+        "line_level_scale_percentile": 99.5,
+        "clip_percentile": 99.9,
+        "scale": 2.590821678083413e-08,
+        "clip_limit": 5.7937825356902414e-08,
+        "clip_limit_after_scale": 2.23627221614737,
+        "preserve_polarity": true,
+        "line_level": true,
+        "per_trace_agc": false,
+        "agc_used_for_training": false,
+        "tvg_used_for_training": false,
+        "log_compression_used_for_training": false,
+        "display_normalization_used_for_training": false,
+        "zero_to_one_display_normalization": false
+      },
+      "files": {
+        "lines/H2/_FORWARD_SUCCESS": {
+          "bytes": 65,
+          "sha256": "993a520f8781cb2ae2a9b87af3392c37edeb654033ba7bd243d3d7917ed69f06"
+        },
+        "lines/H2/forward.npy": {
+          "bytes": 738482816,
+          "sha256": "82a2c250eb0d4230af76f0157f38b27a93435bbba268e983002506902109c783"
+        },
+        "lines/H2/meta.json": {
+          "bytes": 4990539,
+          "sha256": "0d6fe74c1e2884f6220e9d4fad5f85578cbce1fcf93332dd94395f200e24c2b6"
+        },
+        "lines/H2/plan.json": {
+          "bytes": 2425759,
+          "sha256": "7661ca69ab99fe562bae9af6b46149527e36f12e68e3df63146263da2b0cbc55"
+        },
+        "lines/H2/shot_chainage_m.npy": {
+          "bytes": 357920,
+          "sha256": "d3c6c8f6c11ed13f52d56decd7d1863fd996c3b3c29ca5b60d8f8562f5e9bdeb"
+        },
+        "lines/H2/shot_model_columns.npy": {
+          "bytes": 357920,
+          "sha256": "b5e66b8fb93ac8ccbae335559210829cc0747491847d1a8dd785fe52cb0ce176"
+        },
+        "lines/H2/shot_seafloor_depth_m.npy": {
+          "bytes": 179024,
+          "sha256": "90d16102311328b34eaed83cc494b58050b58e3326c105130d922f959f1ebfcf"
+        },
+        "lines/H2/shot_xy_m.npy": {
+          "bytes": 715712,
+          "sha256": "df147caa4205de7f8b2668a562ef9564547ff4730b4d360084d7d635b7ffbb74"
+        }
+      }
+    },
+    {
+      "line": "H3",
+      "forward_path": "lines/H3/forward.npy",
+      "shape": [
+        1,
+        4128,
+        35973
+      ],
+      "dtype": "float32",
+      "shot_count": 35973,
+      "sampling_rate_hz": 96000.0,
+      "normalization": {
+        "normalization_mode": "line_level_robust_scale",
+        "scale_reference": "p99.5",
+        "line_level_scale_percentile": 99.5,
+        "clip_percentile": 99.9,
+        "scale": 1.0244578887430597e-08,
+        "clip_limit": 2.5646273597246267e-08,
+        "clip_limit_after_scale": 2.503399493434767,
+        "preserve_polarity": true,
+        "line_level": true,
+        "per_trace_agc": false,
+        "agc_used_for_training": false,
+        "tvg_used_for_training": false,
+        "log_compression_used_for_training": false,
+        "display_normalization_used_for_training": false,
+        "zero_to_one_display_normalization": false
+      },
+      "files": {
+        "lines/H3/_FORWARD_SUCCESS": {
+          "bytes": 65,
+          "sha256": "405f447f0dee76e85a32b42a4149f9d22b5a9da5321c17b788a7bc41399b4b91"
+        },
+        "lines/H3/forward.npy": {
+          "bytes": 593986304,
+          "sha256": "1555722fdb3bc2e07a7f3059d38855f44c29f3c3111c72a4abf9db28657c7640"
+        },
+        "lines/H3/meta.json": {
+          "bytes": 4020136,
+          "sha256": "883d0de089937786339e19e446839a19e7f067cfe40cde1bb935e16b7e517cfd"
+        },
+        "lines/H3/plan.json": {
+          "bytes": 1952691,
+          "sha256": "32048e48606c63839a929082e47a9ca55e461f4c263930802e1528a8cd8a1602"
+        },
+        "lines/H3/shot_chainage_m.npy": {
+          "bytes": 287912,
+          "sha256": "178f751dd7c3be368cad2561b80d7eecb03c69b892c384dcf58cc1b457863463"
+        },
+        "lines/H3/shot_model_columns.npy": {
+          "bytes": 287912,
+          "sha256": "9942f82f9f45641b439b5be1d76c70b6444a6cdee37fe965c12a3958ad627532"
+        },
+        "lines/H3/shot_seafloor_depth_m.npy": {
+          "bytes": 144020,
+          "sha256": "36649ba48fc4ab35e07de1a92668fd6ff985aac4a948b47b52e718404e83a07e"
+        },
+        "lines/H3/shot_xy_m.npy": {
+          "bytes": 575696,
+          "sha256": "a6f3d0087e7eab879ee5e366ff9a07b9a8443d7ee54a06a97e3d0c55d34d811d"
+        }
+      }
+    },
+    {
+      "line": "H4",
+      "forward_path": "lines/H4/forward.npy",
+      "shape": [
+        1,
+        4128,
+        35213
+      ],
+      "dtype": "float32",
+      "shot_count": 35213,
+      "sampling_rate_hz": 96000.0,
+      "normalization": {
+        "normalization_mode": "line_level_robust_scale",
+        "scale_reference": "p99.5",
+        "line_level_scale_percentile": 99.5,
+        "clip_percentile": 99.9,
+        "scale": 1.79030014457738e-08,
+        "clip_limit": 4.002278032899658e-08,
+        "clip_limit_after_scale": 2.2355346644092684,
+        "preserve_polarity": true,
+        "line_level": true,
+        "per_trace_agc": false,
+        "agc_used_for_training": false,
+        "tvg_used_for_training": false,
+        "log_compression_used_for_training": false,
+        "display_normalization_used_for_training": false,
+        "zero_to_one_display_normalization": false
+      },
+      "files": {
+        "lines/H4/_FORWARD_SUCCESS": {
+          "bytes": 65,
+          "sha256": "f82bf6513c6bb28c105477db4ead9db80ae3ff0db54394095a031ae9e1763372"
+        },
+        "lines/H4/forward.npy": {
+          "bytes": 581437184,
+          "sha256": "0bf39ac20e7476bce4374bdcd0ec012efcd9d24108c6759f3d4b63edd0703d9f"
+        },
+        "lines/H4/meta.json": {
+          "bytes": 3935576,
+          "sha256": "97947ea2051d4b129237395362c64a8a0cfdc8ce1bec9daa316d6adb4a73870e"
+        },
+        "lines/H4/plan.json": {
+          "bytes": 1911762,
+          "sha256": "f7dcf46753fa6a46c210421dee5d145122aa70a805aae0741d4280f50b59e63b"
+        },
+        "lines/H4/shot_chainage_m.npy": {
+          "bytes": 281832,
+          "sha256": "5823a23b521c4967c1b9152ee8723a6272c3ab760efeeb55aa8ed410aad0e600"
+        },
+        "lines/H4/shot_model_columns.npy": {
+          "bytes": 281832,
+          "sha256": "f7d60f8c1e9f29d2063cc090523ad533b89546a87f1856123d376c8e80f52da4"
+        },
+        "lines/H4/shot_seafloor_depth_m.npy": {
+          "bytes": 140980,
+          "sha256": "59d47517b6c9c9f944b62c39603c14455195f0fc5332b46ed8f2c37ce52f269c"
+        },
+        "lines/H4/shot_xy_m.npy": {
+          "bytes": 563536,
+          "sha256": "25fe88c49524ecf183c9fe7fcd07c60b76e059651d665456518726be36440c08"
+        }
+      }
+    },
+    {
+      "line": "H5",
+      "forward_path": "lines/H5/forward.npy",
+      "shape": [
+        1,
+        4128,
+        37758
+      ],
+      "dtype": "float32",
+      "shot_count": 37758,
+      "sampling_rate_hz": 96000.0,
+      "normalization": {
+        "normalization_mode": "line_level_robust_scale",
+        "scale_reference": "p99.5",
+        "line_level_scale_percentile": 99.5,
+        "clip_percentile": 99.9,
+        "scale": 1.0094598934529131e-08,
+        "clip_limit": 2.5468787404392663e-08,
+        "clip_limit_after_scale": 2.5230113221512225,
+        "preserve_polarity": true,
+        "line_level": true,
+        "per_trace_agc": false,
+        "agc_used_for_training": false,
+        "tvg_used_for_training": false,
+        "log_compression_used_for_training": false,
+        "display_normalization_used_for_training": false,
+        "zero_to_one_display_normalization": false
+      },
+      "files": {
+        "lines/H5/_FORWARD_SUCCESS": {
+          "bytes": 65,
+          "sha256": "366b244ae2ca22647617b0f63a297375b3903f21c63c1f242fe4897c12a2731c"
+        },
+        "lines/H5/forward.npy": {
+          "bytes": 623460224,
+          "sha256": "8bb11e1313732ee73b443488e0cf5da9bdd89b0203b55e00acb5773a15faae49"
+        },
+        "lines/H5/meta.json": {
+          "bytes": 4218259,
+          "sha256": "f05c9d3dcc114280ec6f10f27ed8f7c8010ad9c7070efca75d2265acc464be6c"
+        },
+        "lines/H5/plan.json": {
+          "bytes": 2049288,
+          "sha256": "d26912aa08f7765f007c823fe9c4e7499c37379628635375282343e2adeabf36"
+        },
+        "lines/H5/shot_chainage_m.npy": {
+          "bytes": 302192,
+          "sha256": "c3b2864e2c5020c0a0b7dd39da25ea502f4e301a0019a99a6388f3f6d0e5229d"
+        },
+        "lines/H5/shot_model_columns.npy": {
+          "bytes": 302192,
+          "sha256": "40c75b2a997096d82a1c1864950a10586800994804163a651d172ff80be03b4d"
+        },
+        "lines/H5/shot_seafloor_depth_m.npy": {
+          "bytes": 151160,
+          "sha256": "cfc73f2519de8594596c5930cea1b3e08b300cf04f57fd48fb60302b1331d730"
+        },
+        "lines/H5/shot_xy_m.npy": {
+          "bytes": 604256,
+          "sha256": "ed8573429a60720c7e7db6b5ef9357aa2e336549ca6ea351a7c0d647e58add4d"
+        }
+      }
+    },
+    {
+      "line": "H6",
+      "forward_path": "lines/H6/forward.npy",
+      "shape": [
+        1,
+        4128,
+        33550
+      ],
+      "dtype": "float32",
+      "shot_count": 33550,
+      "sampling_rate_hz": 96000.0,
+      "normalization": {
+        "normalization_mode": "line_level_robust_scale",
+        "scale_reference": "p99.5",
+        "line_level_scale_percentile": 99.5,
+        "clip_percentile": 99.9,
+        "scale": 2.175745986043862e-08,
+        "clip_limit": 4.8168281811200646e-08,
+        "clip_limit_after_scale": 2.213874327250148,
+        "preserve_polarity": true,
+        "line_level": true,
+        "per_trace_agc": false,
+        "agc_used_for_training": false,
+        "tvg_used_for_training": false,
+        "log_compression_used_for_training": false,
+        "display_normalization_used_for_training": false,
+        "zero_to_one_display_normalization": false
+      },
+      "files": {
+        "lines/H6/_FORWARD_SUCCESS": {
+          "bytes": 65,
+          "sha256": "2e2150382faf876574cc6a5c8c39b5d6675492dffc5802b965c6a063a72d23c7"
+        },
+        "lines/H6/forward.npy": {
+          "bytes": 553977728,
+          "sha256": "9be07f9665cb9a288f9358ca703af8b94a9fa940db26e07124837a07863e0407"
+        },
+        "lines/H6/meta.json": {
+          "bytes": 3751486,
+          "sha256": "81b88460b2a7d5d31603b0de0c711a7bd99563a7f3eda4632389cfe6c973bb0c"
+        },
+        "lines/H6/plan.json": {
+          "bytes": 1821874,
+          "sha256": "92460d0bc90c3877e36d168ca5f54ab24efe46dcec9b382d2540b91f5d5cd5d0"
+        },
+        "lines/H6/shot_chainage_m.npy": {
+          "bytes": 268528,
+          "sha256": "315f3d682a50e50fd40af0edc1a138480ef8e44c9d477a8143fbb38238552b2e"
+        },
+        "lines/H6/shot_model_columns.npy": {
+          "bytes": 268528,
+          "sha256": "497b8d0fc72b4b73f160ca3c48be3683d5ea02fdf24f6066830595183007f15a"
+        },
+        "lines/H6/shot_seafloor_depth_m.npy": {
+          "bytes": 134328,
+          "sha256": "b017736321d142cc494354386bde0ad709f6c9a902f0bfe854b89e013016e180"
+        },
+        "lines/H6/shot_xy_m.npy": {
+          "bytes": 536928,
+          "sha256": "950163a15aef2524968f8cce4ac2ad11365593b3123a410af71e90d51210c70b"
+        }
+      }
+    }
+  ]
+}

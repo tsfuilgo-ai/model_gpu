@@ -1,0 +1,1 @@
+datasets/h1_h6_whole_line_forward_v2/lines/*/forward.npy filter=lfs diff=lfs merge=lfs -text
