@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+train_logs_16tiles/
+checkpoints_16tiles/*.pt
+!checkpoints_16tiles/*.pt.part-*
